@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Values from "../components/values";
 import Teachers from "../components/teachers";
+import Students from "../components/student";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero/>
       <Values/>
       <Teachers/>
+      <Students/>
     </div>
   );
 }
