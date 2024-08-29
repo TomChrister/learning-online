@@ -23,6 +23,9 @@ module.exports = {
       bebasneo: ['Bebas Neue', 'cursive'],
     },
     extend: {
+      width: {
+        "24rem": "24rem",
+      },
       boxShadow: {
         "3xl": "-1px 34px 47px -29px rgb(32 32 32 / 100%)",
         "4xl": " 0vw 0vw 0.5vw 0vw rgb(32 32 32 / 20%)",
