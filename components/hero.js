@@ -1,12 +1,12 @@
 /* eslint-disable */
-
-
+import Navbar from "../components/navbar";
 import React from 'react';
 
 const Hero = () => {
     return (
         <div className="container mx-auto my-10">
             <div className="bg-[#fff5f1] px-16 py-10 rounded-3xl">
+                <Navbar/>
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col gap-10">
                         <p className="text-6xl font-medium">
