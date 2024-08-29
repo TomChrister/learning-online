@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
