@@ -27,6 +27,7 @@ export default function Home() {
       <Moreinfo/>
       <Trial/>
       <Footer/>
+        <Image/>
     </div>
   );
 }
