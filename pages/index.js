@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import Values from "../components/values";
 import Teachers from "../components/teachers";
@@ -21,7 +20,6 @@ export default function Home() {
         ></link>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Hero/>
       <Values/>
       <Teachers/>

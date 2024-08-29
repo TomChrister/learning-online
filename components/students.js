@@ -6,7 +6,7 @@ const Students = () => {
             <p className="text-gray-500 text-base lg:text-xl font-medium uppercase">
                 Top students
             </p>
-            <p className="text-gray-800 text-3xl lg:text-5xl font-medium capitalize">
+            <p className="text-gray-800 text-3xl lg:text-5xl font-medium">
                 Our students say
             </p>
             <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5 py-10 lg:py-10">
@@ -17,7 +17,7 @@ const Students = () => {
                         <img src="/assets/spain.svg" alt="spain"/>
                         <p className="text-gray-500">B2 course student</p>
                     </div>
-                    <p className=" text-base sm:text-lg md:text-2xl lg:text-3xl">
+                    <p className=" text-base sm:text-lg md:text-2xl lg:text-3xl italic opacity-80">
                         "There is no way I could have made the same progress learning Spanish
                         without using Lingua. The best part is that learning Spanish has now
                         become one of my biggest hobbies."
