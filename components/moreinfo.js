@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { BsFillPlusCircleFill } from 'react-icons/bs'
