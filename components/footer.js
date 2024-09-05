@@ -15,7 +15,6 @@ const Footer = () => {
                     <p className="text-xl font-semibold">Company</p>
                     <p className="text-base cursor-pointer">Careers</p>
                     <p className="text-base cursor-pointer">Teachers</p>
-                    <p className="text-base cursor-pointer">Support</p>
                     <p className="text-base cursor-pointer">Contact</p>
                 </div>
                 <div className="flex flex-col items-center lg:items-start gap-5">
@@ -28,6 +27,7 @@ const Footer = () => {
                     <p className="text-xl font-semibold">Legal</p>
                     <p className="text-base cursor-pointer">Terms & Conditions</p>
                     <p className="text-base cursor-pointer">Privacy policy</p>
+                    <p className="text-base cursor-pointer">About us</p>
                 </div>
                 <div className="flex items-center justify-center gap-5">
                     <BsFacebook className="text-3xl text-gray-500"/>
