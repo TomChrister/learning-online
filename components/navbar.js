@@ -5,9 +5,9 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className="">
-            <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-5 pb-4 lg:pb-0">
                 <img src="/assets/logo.svg" alt="logo"/>
-                <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
+                <div className="hidden md:flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
                     <p>Courses</p>
                     <p>About us</p>
                     <p>Teachers</p>
@@ -16,7 +16,7 @@ const Navbar = () => {
                     <p>Blog</p>
                 </div>
                 <button
-                    className="btn bg-white text-[#7270dd] border-none hover:bg-[#7270dd] hover:text-white capitalize rounded full">
+                    className="hidden md:flex btn bg-white text-[#7270dd] border-none hover:bg-[#7270dd] hover:text-white capitalize rounded full">
                     Get started
                 </button>
             </div>
